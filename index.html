@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Project Manager</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="projects.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1"> Project Manager</div>
+      <div class="box2"> Add Project</div>
+      <div class="box3"> Show Projects</div>
+    </div>
+
+    <div class="projectOverviewContainer">
+      <h1 id="projectName">Project1</h1>
+      <h1 id="numberOfSprints"> Number of Sprints : 5</h1>
+      <h1 id="numberOfTickets"> Number of Tickets : 4</h1>
+      <input class="button1" type="button" name="addTicketButton" value="Add Ticket">
+      <input class="button1" type="button" name="addTicketButton" value="View Tickets">
+    </div>
+
+    <div class="addTicketContainer">
+      <input class="button1" type="button" name="bugButton" value="Bug">
+      <input class="button1" type="button" name="featureButton" value="Feature">
+      <input class="button1" type="button" name="taskButton" value="Task">
+    </div>
+    <div class="TicketInputsContainer">
+      <div class="lol">
+      <label> Ticket Name: </label> <input type="text" value=""></div>
+      <div class="lol">
+      <label> Your Name: </label> <input type="text" value=""></div>
+      <div class="lol">
+      <label> Asignee: </label> <input type="text" value=""></div>
+      <div class="lol">
+      <label> Sprint: </label> <input type="number" value="" min="1"></div>
+      <div class="lol">
+      <label> Description: </label> <textarea> </textarea></div>
+      <div class="lol">
+      <label> Messages </label> <textarea> </textarea></div>
+      <div class="lol">
+      <label> Tasks </label> <textarea> </textarea></div>
+    </div>
+
+    <div class="addProjectContainer">
+      <div class="lol">
+      <label>Project Name: </label> <input type="text" name="name" value=""></div>
+      <div class="lol"><label>Number of Sprints:</label><input type="number" name="name" value="1" min="1"></div>
+      <input class="button1" type="button" name="addProjectButton" value="Add Project">
+    </div>
+
+    <div class="projectsContainer">
+      <div class="project" id="project1">
+        Project1
+        <p> Number of sprints: 5 </p>
+        <p> Tickets: 5 </p>
+      </div>
+      <div class="project" id="project2">
+        Project2
+          <p> Number of sprints: 3 </p>
+          <p> Tickets: 5 </p>
+      </div>
+      <div class="project" id="project3">
+        Project3
+          <p> Number sprints: 4 </p>
+          <p> Tickets: 5 </p>
+      </div>
+      <div class="project" id="project4">
+        Project4
+          <p> Number of sprints: 5 </p>
+          <p> Tickets: 5 </p>
+      </div>
+      <div class="project" id="project5">
+        Project5
+          <p> Nr of sprints: 6 </p>
+      </div>
+      <div class="project" id="project6">
+        Project6
+      </div>
+      <div class="project" id="project6">
+        Project7
+      </div>
+      <div class="project" id="project6">
+        Project8
+      </div>
+      <div class="project" id="project6">
+        Project9
+      </div>
+      <div class="project" id="project6">
+        Project10
+      </div>
+      <div class="project" id="project6">
+        Project11
+      </div>
+    </div>
+
+
+  </body>
+</html>
